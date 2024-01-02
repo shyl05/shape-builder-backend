@@ -47,6 +47,9 @@ var shapeSchema = Schema({
     points: {
         type: Array,
     },
+    rotation: {
+        type: Number,
+    }
 })
 
 const shape = mongoose.model('Shape', shapeSchema);
